@@ -390,7 +390,16 @@ add_content_slide("Summary", [
     "   not on making the LLM smarter",
 ])
 
-# 17 - Thank You
+# 17 - Why Knowledge Graphs Stay Niche (Backup)
+add_table_slide("Why Knowledge Graphs Stay Niche", [
+    "Knowledge type", "Example", "Best home"
+], [
+    ["General knowledge", '"Water is wet except when it\'s ice"', "LLMs just know this"],
+    ["Business facts", '"John bought apples on Tuesday"', "SQL databases + semantic layer"],
+    ["Graph-structured problems", "Fraud rings, network routing", "Bespoke software"],
+])
+
+# 18 - Thank You
 s = add_title_slide(
     "Thank You",
     "The Semantic Layer as the Enterprise Knowledge Graph"
@@ -403,6 +412,6 @@ r.text = "LLMs for language. Real tools for real answers."
 fmt(r, 20, GRAY, italic=True)
 
 
-out = "/Users/chuck/atscale/slides/deck.pptx"
+out = "/Users/chuck/atscale/kg-slides/deck.pptx"
 prs.save(out)
 print(f"Saved: {out}")
