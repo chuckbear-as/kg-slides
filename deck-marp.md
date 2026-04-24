@@ -254,6 +254,24 @@ Instead of treating knowledge graphs as a separate complementary technology.
 
 ---
 
+# Why Knowledge Graphs Stay Niche
+
+There are three kinds of knowledge. Each already has a home.
+
+| Knowledge type | Example | Best home |
+|---|---|---|
+| **General knowledge** | "Water is wet except when it's ice" | LLMs just know this |
+| **Business facts** | "John bought apples on Tuesday" | SQL databases + semantic layer |
+| **Graph-structured problems** | Fraud rings, network routing | Bespoke software |
+
+General knowledge → LLMs handle it natively. No store needed.
+Business facts → must live in SQL to power BI, dashboards, metrics.
+True graph problems → real, but rare, and solved with **purpose-built systems**, not generic graph stores.
+
+*This is why the graph database market has stayed niche for **decades** — and LLMs make the squeeze tighter, not looser.*
+
+---
+
 # Thank You
 
 **The Semantic Layer as the Enterprise Knowledge Graph**

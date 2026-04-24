@@ -231,6 +231,25 @@ RETURN DISTINCT x.name</code></pre>
   </ol>
 </section>
 
+<!-- Backup: Why Graph Stores Stay Niche -->
+<section>
+  <h2>Why Knowledge Graphs Stay Niche</h2>
+  <p>There are three kinds of knowledge. Each already has a home.</p>
+  <br>
+  <table>
+    <tr><th>Knowledge type</th><th>Example</th><th>Best home</th></tr>
+    <tr><td><strong>General knowledge</strong></td><td>"Water is wet except when it's ice"</td><td>LLMs just know this</td></tr>
+    <tr><td><strong>Business facts</strong></td><td>"John bought apples on Tuesday"</td><td>SQL databases + semantic layer</td></tr>
+    <tr><td><strong>Graph-structured problems</strong></td><td>Fraud rings, network routing</td><td>Bespoke software</td></tr>
+  </table>
+  <br>
+  <p class="fragment">General knowledge &rarr; LLMs handle it natively. No store needed.</p>
+  <p class="fragment">Business facts &rarr; must live in SQL to power BI, dashboards, metrics.</p>
+  <p class="fragment">True graph problems &rarr; real, but rare, and typically solved with <strong>purpose-built systems</strong>, not generic graph stores.</p>
+  <br>
+  <p class="fragment small">This is why the graph database market has stayed niche for <strong>decades</strong> &mdash; and LLMs make the squeeze tighter, not looser.</p>
+</section>
+
 <!-- End -->
 <section>
   <h1>Thank You</h1>
